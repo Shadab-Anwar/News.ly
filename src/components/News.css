@@ -1,0 +1,22 @@
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: -20px;
+}
+.box{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 60px;
+}
+@media screen and (max-width : 1000px) {
+    .head{
+        padding-left: 125%;
+    }
+    
+}
